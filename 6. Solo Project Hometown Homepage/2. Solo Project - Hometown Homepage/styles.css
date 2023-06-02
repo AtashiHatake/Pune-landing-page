@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Mukta", sans-serif;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #8ecae6;
+  border-radius: 50%;
+}
+
+#bgimg {
+  margin: 0px;
+  color: azure;
+  width: 100%;
+  height: 600px;
+  background-image: url("images/balewadi.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  background-color: #8ecae6;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border-radius: 7px;
+  align-items: center;
+}
+.header1 {
+  background-color: #023047;
+  margin: 20px auto 0 auto;
+  padding: 5px 20px;
+  border-radius: 7px;
+  align-items: center;
+  font-size: medium;
+}
+
+.header2 {
+  font-weight: bold 700;
+  font-size: 25px;
+  margin-top: 0px;
+  padding: 30px 0px;
+}
+
+#middle {
+  color: #8ecae6;
+  margin: 0;
+  background-color: #023047;
+  height: 600px;
+  width: 100%;
+}
+
+.mid-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+.texts1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 200;
+}
